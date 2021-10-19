@@ -1,0 +1,17 @@
+---
+title: "HelloWorld"
+author: "Anderson"
+date: "19/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##This is a markdown file
+
+```{r}
+knitr::include_graphics("https://st2.depositphotos.com/6544740/9337/i/600/depositphotos_93376372-stock-photo-sunset-over-sea-pier.jpg")
+```
+
